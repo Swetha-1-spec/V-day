@@ -1,0 +1,76 @@
+body {
+  background-color: #E6E6FA; /* Lavender */
+  font-family: 'Segoe UI', sans-serif;
+  height: 100vh;
+  margin: 0;
+  color: #4b2e83; /* Soft dark purple for text */
+}
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.yes {
+  background-color: #ff4d6d;
+  color: white;
+}
+
+.no {
+  background-color: #555;
+  color: white;
+}
+
+.gifts {
+  display: flex;
+  gap: 20px;
+}
+
+.gift {
+  background: #ff758f;
+  color: white;
+}
+
+.messages p {
+  font-size: 1.2rem;
+  margin: 8px 0;
+}
+
+.next {
+  background-color: #ff4d6d;
+  color: white;
+}
+
+.gift small {
+  display: block;
+  font-size: 0.8rem;
+  margin-top: 8px;
+  opacity: 0.9;
+}
+
+/* Extra small button under Gift 2 */
+.gift-with-extra {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
